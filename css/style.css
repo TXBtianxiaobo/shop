@@ -1,0 +1,152 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 2rem;
+	background: #f2f2f2;
+}
+.head .top{
+	width: 100%;
+	height: 1.12rem;
+	padding: 0.06rem 0;
+	box-sizing: border-box;
+}
+.head .top .box{
+	width:100%;
+	height: 1rem;
+	display: flex;
+	
+	
+}
+.head .top .box .logo{
+	width: 1.53rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.head .top .box .logo img{
+	width: 0.77rem;
+	height: 0.44rem;
+}
+.head .top .box .search{
+	width: 7.75rem;
+	height: 100%;
+	background: #fff;
+	font-size: 0.4rem;
+	line-height: 1.12rem;
+	color: #b2b2b2;
+}
+.head .top .box .search i{
+	font-family: iconfont;
+	margin-left: 0.3rem;
+	margin-right: 0.25rem;
+}
+.head .top .box .ico{
+	width: 1.52rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.head .top .box .ico img {
+	width: 0.46rem;
+	height: 0.6rem;
+	
+}
+.head .bottom{
+	width: 100%;
+	height: 0.88rem;
+	background: blue;
+	display: flex;
+	
+}
+.head .bottom ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.head .bottom ul li{
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	color: rgb(116, 116, 116);
+	text-align: center;
+	margin-left: 0.74rem;
+}
+.head .bottom ul li:nth-child(1){
+	margin-left: 0.3rem;
+	color: #e5610f;
+}
+/* 头部结束 */
+/* 图片开始 */
+.image{
+	width: 10.8rem;
+	height: 4.8rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.image .xiaoimage{
+	width: 2.16rem;
+	height: 2.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image .xiaoimage img{
+	width: 1.2rem;
+	height: 1.4rem;
+}
+
+/* 图片结束 */
+.kuang{
+	width: 10.8rem;
+	height: 0.25rem;
+	background: #f2f2f2;
+}
+/* 优选开始 */
+ .youxuan{
+	width: 10.8rem;
+	height: 4.83rem;
+	display: flex;
+	
+}
+.youxuan .tu1{
+	width: 5.4rem;
+	height: 4.83rem;
+	margin-right: 0.1rem;
+}
+.youxuan .tu1 img{
+	width: 5.4rem;
+	height: 4.83rem;
+}
+.youxuan .tu{
+	width: 5.3rem;
+	height: 4.83rem;
+	display: flex;
+	flex-direction: column;
+}
+.youxuan .tu .tu2{
+	width:5.3rem ;
+	height: 2.365rem;
+	margin-bottom: 0.1rem;
+}
+.youxuan .tu .tu2 img{
+	width: 100%;
+	height: 100%;
+}
+.youxuan .tu .tu3{
+	width: 5.3rem;
+	height: 2.365rem;
+}
+.youxuan .tu .tu3 img{
+	width: 100%;
+	height: 100%;
+}
+/* 优选结束 */
