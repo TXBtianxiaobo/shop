@@ -1,13 +1,20 @@
+body{
+	position: relative;
+}
 .root{
 	max-width: 640px;
 	height: 100vh;
 	margin: 0 auto;
+	overflow: auto;
 }
 /* 头部开始 */
 .head{
 	width: 100%;
 	height: 2rem;
 	background: #f2f2f2;
+	position: fixed;
+	position: absolute;
+	top: 0;
 }
 .head .top{
 	width: 100%;
@@ -63,28 +70,75 @@
 .head .bottom{
 	width: 100%;
 	height: 0.88rem;
-	background: blue;
 	display: flex;
 	
 }
 .head .bottom ul{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	
+	flex-wrap: nowrap;
+	overflow: hidden;
+	overflow: auto;	
 }
+
 .head .bottom ul li{
 	font-size: 0.4rem;
 	line-height: 0.88rem;
 	color: rgb(116, 116, 116);
 	text-align: center;
 	margin-left: 0.74rem;
+	flex-shrink: 0;
 }
 .head .bottom ul li:nth-child(1){
 	margin-left: 0.3rem;
 	color: #e5610f;
+	border-bottom: 0.02rem solid #e5610f;
+	box-sizing: border-box;
 }
+.head .bottom .tubiao{
+	width: 2rem;
+	text-align: center;
+	line-height:0.88rem ;
+	height: 100%;
+	color: #c8c8c8;
+	font-size: 0.32rem;
+	
+}
+
 /* 头部结束 */
+/* 内容开始 */
+
+/* 轮播开始 */
+.banner{
+	width: 100%;
+	height: 5.48rem;
+	background: #E5610F;
+	overflow: hidden;
+	margin-top: 2rem;
+	
+	
+}
+.banner .box{
+	width: 300%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.banner a img {
+	width: 100%;
+	height: 100%;
+}
+.banner a img:nth-child(2){
+	flex-shrink: 0;
+}
+.banner a img:nth-child(3){
+	flex-shrink: 0;
+
+}
+
+
+
+/* 轮播结束 */
 /* 图片开始 */
 .image{
 	width: 10.8rem;
@@ -150,3 +204,118 @@
 	height: 100%;
 }
 /* 优选结束 */
+/* 单图开始 */
+.xiaomi8{
+	height: 4.7rem;
+	width: 100%;
+	background: #fff;
+	
+}
+.xiaomi8 img{
+	width: 100%;
+	height: 4.2rem;
+	margin-top: 0.25rem;
+}
+/* 单图结束 */
+/* 推荐开始 */
+.tuijian{
+	width: 100%;
+	height: 6.65rem;
+}
+.tuijian img{
+	width: 100%;
+	height: 100%;
+}
+/* 推荐结束 */
+/* 小图开始 */
+.xiaotu{
+	width: 100%;
+	height: 7.6rem;
+	background: #fff;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+}
+.xiaotu .box1{
+	width: 5.35rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+
+}
+.xiaotu .box1 img{
+	width: 100%;
+	height: 5.4rem;
+	
+}
+.xiaotu .box1 .name{
+	/* width: 100%; */
+	font-size: 0.38rem;
+	color: #222;
+	line-height: 0.4rem;
+	margin-top: 0.3rem;
+    margin-left: 0.3rem;
+	
+}
+.xiaotu .box1 .miaoshu{
+	/* width: 100%; */
+	font-size: 0.3rem;
+	color: #bebebe;
+	line-height: 0.3rem;
+	margin-top: 0.3rem;
+    margin-left: 0.3rem;
+	
+}
+.xiaotu .box1 .price{
+	/* width: 100%; */
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	color: #d56e67;
+	margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.xiaotu .box1 .xia{
+	height: 100%;
+}
+<!-- 小米结束开始 -->
+.jieshu {
+	width: 100%;
+	height: 1.44rem;
+	background: #fff;
+	
+}
+.jieshu img{
+	width: 100%;
+	height: 100%;
+}
+<!-- 小米结束结束 -->
+
+
+/* 内容结束 */
+<!-- 底部开始 -->
+.shouye {
+	height: 1.4rem;
+	width: 100%;
+	text-align: center;
+	
+}
+.shouye i{
+	
+	color: #E5610F;
+	font-size: 0.6ram;
+	line-height: ;
+}
+.shouye  span{
+	width: 2.7rem;
+	height:1.4rem;
+	color: #E5610F;
+	font-size: 0.28rem;
+	line-height: 1.4rem;
+	
+}
+			
+			
+<!-- 底部结束 -->
+
