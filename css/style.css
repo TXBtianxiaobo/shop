@@ -15,6 +15,7 @@ body{
 	position: fixed;
 	position: absolute;
 	top: 0;
+	left: 0;
 	z-index: 4;
 }
 .head .top{
@@ -80,11 +81,13 @@ body{
 	flex-wrap: nowrap;
 	overflow: hidden;
 	overflow: auto;
+	left: 0;
 	
 }
 .head .bottom ul::-webkit-scrollbar{
 	width: 0;
 	height: 0;
+	
 }
 .head .bottom ul li{
 	font-size: 0.4rem;
