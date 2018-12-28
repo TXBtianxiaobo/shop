@@ -15,6 +15,7 @@ body{
 	position: fixed;
 	position: absolute;
 	top: 0;
+	z-index: 4;
 }
 .head .top{
 	width: 100%;
@@ -55,7 +56,7 @@ body{
 	margin-right: 0.25rem;
 }
 .head .top .box .ico{
-	width: 1.52rem;
+	width: 1.5rem;
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -63,7 +64,7 @@ body{
 	
 }
 .head .top .box .ico img {
-	width: 0.46rem;
+	width: 0.6rem;
 	height: 0.6rem;
 	
 }
@@ -78,9 +79,13 @@ body{
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	overflow: hidden;
-	overflow: auto;	
+	overflow: auto;
+	
 }
-
+.head .bottom ul::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
 .head .bottom ul li{
 	font-size: 0.4rem;
 	line-height: 0.88rem;
@@ -115,6 +120,7 @@ body{
 	background: #E5610F;
 	overflow: hidden;
 	margin-top: 2rem;
+	position: relative;
 	
 	
 }
@@ -135,7 +141,41 @@ body{
 	flex-shrink: 0;
 
 }
-
+.banner .yuan{
+	width: 100%;
+	height: 0.3rem;
+	position: absolute;
+	bottom: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.banner .yuan .baiyuan{
+	width: 0.28rem;
+	height: 0.28rem;
+	border-radius: 50%;
+	background: #fffcff;
+	margin-left: 0.2rem;
+	
+}
+.banner .yuan .huiyuan1{
+	width: 0.28rem;
+	height: 0.28rem;
+	border-radius: 50%;
+	background: #7e6bf9;
+	margin-left: 0.2rem;
+}
+.banner .yuan .huiyuan2{
+	width: 0.28rem;
+	height: 0.28rem;
+	border-radius: 50%;
+	background: #7e6bf9;
+	margin-left: 0.2rem;
+	margin-right: 1rem;
+	
+}
 
 
 /* 轮播结束 */
@@ -279,7 +319,6 @@ body{
 .xiaotu .box1 .xia{
 	height: 100%;
 }
-<!-- 小米结束开始 -->
 .jieshu {
 	width: 100%;
 	height: 1.44rem;
@@ -290,32 +329,77 @@ body{
 	width: 100%;
 	height: 100%;
 }
-<!-- 小米结束结束 -->
 
-
+/* 小图结束 */
+/* 小米结束开始 */
+.jieshu {
+	margin-bottom: 1.4rem;
+}
+/* 小米结束结束 */
 /* 内容结束 */
-<!-- 底部开始 -->
-.shouye {
-	height: 1.4rem;
+/* 底部开始 */
+.footer{
 	width: 100%;
+	height: 1.4rem;
+	display: flex;
+	padding: 0.1rem 0;
+	background: #fff;
+	box-sizing: border-box;
 	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
 	
 }
-.shouye i{
-	
-	color: #E5610F;
-	font-size: 0.6ram;
-	line-height: ;
+.footer::-webkit-scrollbar{
+	width: 0;
+	height: 0;
 }
-.shouye  span{
-	width: 2.7rem;
-	height:1.4rem;
-	color: #E5610F;
-	font-size: 0.28rem;
-	line-height: 1.4rem;
+
+.footer a{
+	width: 25%;
+	height: 1.2rem;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	
+	
 	
 }
+.footer a img{
+	width: 0.6rem;
+	height: 0.6rem;
+	
+}
+.footer a span{
+	width: 0.7rem;
+	height: 0.3rem;
+    font-size: 0.28rem;
+	color: #eb7300;
+	line-height: 0.3rem;
+	
+}
+.footer a:nth-child(3) span{
+	width: 1.7rem;
+	color: #727272;
+}
+.footer a:nth-child(2) span{
+	color: #727272;
+}
+.footer a:nth-child(4) span{
+	color: #727272;
+}
+/* 底部结束 */
+
+	
 			
-			
-<!-- 底部结束 -->
+		
 
