@@ -1,0 +1,398 @@
+.root {
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	/* margin-top: 5rem; */
+
+}
+
+.head {
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.head .box {
+	width: 9.8rem;
+	height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.head .box .zuojian{
+	display: block;
+	height: 0.6rem;
+	width: 0.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head .box .zuojian .iconfont {
+	height: 0.6rem;
+	width: 0.6rem;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #8b8b8b;
+}
+
+.head .box span {
+	height: 0.6rem;
+	font-size: 0.42rem;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #8b8b8b;
+
+}
+
+.head .box .shousuo {
+	display: block;
+	height: 0.6rem;
+	width: 0.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head .box .shousuo .iconfont {
+	height: 0.6rem;
+	width: 0.6rem;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #8b8b8b;
+}
+main{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+/* 内容开始 */
+.yixuan{
+	width: 10.8rem;
+	height: 3.45rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* margin-top: 1.7rem; */
+}
+.yixuan .yuan{
+	height: 0.6rem;
+	width: 0.6rem;
+	border-radius: 50%;
+	background: #ff5a2d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.yixuan .yuan .iconfont{
+	border-radius: 50%;
+	height: 0.6rem;
+	width: 0.6rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+	color: #fff;
+}
+.yixuan .tupianhe{
+	width: 2.7rem;
+	height: 2.7rem;
+	border: 0.02rem solid #f2f2f2;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.yixuan .tupianhe img{
+	width: 1.85rem;
+	height: 2.24rem;
+	
+	
+}
+.yixuan .jieshao{
+	width: 6.4rem;
+	height: 2.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	flex-direction: column;
+	
+} 
+.yixuan .jieshao span{
+	font-size: 0.38rem;
+	color: #646464;
+	font-weight: 500;
+	display: block;
+	
+}	
+.yixuan .jieshao .price{
+	font-size: 0.34rem;
+	color: #c0c0c0;
+}
+.yixuan .jieshao .box{
+	width: 6.4rem;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.yixuan .jieshao .box .box1{
+	width: 2.73rem;
+	height: 1rem;
+	display: flex;
+}
+.yixuan .jieshao .box .box1 .box2{
+	width: 0.91rem;
+	height:1rem ;
+	background: #f2f2f2;
+	font-size: 0.5rem;
+	font-weight: 500;
+	color: #ccc;
+	text-align: center;
+	line-height: 1rem;
+}
+.yixuan .jieshao .box .box1 .box3{
+	width: 0.91rem;
+	height:1rem ;
+	background: #fff;
+	font-size: 0.6rem;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+	line-height: 1rem;
+}
+.yixuan .jieshao .box .box1 .box4{
+	width: 0.91rem;
+	height:1rem ;
+	background: #f2f2f2;
+	font-size: 0.6rem;
+	font-weight: 500;
+	color: #ccc;
+	text-align: center;
+	line-height: 1rem;
+}
+	
+	
+
+.yixuan .jieshao .box .iconfont{
+	
+	display: block;
+	font-size: 0.53rem;
+	color: #a2a2a2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0.25rem;
+}
+
+
+.baozhang{
+	width: 10.8rem;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.baozhang .box{
+	width: 10.2rem;
+	height: 1.25rem;
+	background: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.baozhang .box .box1{
+	width: 9.2rem;
+	height: 0.7rem;
+	margin-right: 0.05rem;
+	display: flex;
+	justify-content: space-between;
+}
+.baozhang .box .box1 .box2{
+	width: 4rem;
+	height: 0.7rem;
+	display: flex;
+	
+}
+.baozhang .box .box1 .box2 img{
+	display: block;
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.baozhang .box .box1 .box2 .wenzi{
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.34rem;
+	color: #000;
+}
+.baozhang .box .box1 .xuangou{
+	height: 0.7rem;
+	/* width: 0.7rem; */
+	font-size: 0.34rem;
+	color: #f35f41;
+	line-height: 0.7rem;
+}
+.tishi{
+	width: 10.8rem;
+	height: 1.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background: #f2f2f2;
+}
+.tishi .box{
+	height: 1.05rem;
+	width: 10.8rem;
+	background: #fff;
+	font-size: 0.3rem;
+	line-height: 1.05rem;
+	text-align: center;
+	color: #929292;
+	
+}
+
+
+.xinnian{
+	height: 2.2rem;
+	width: 10.8rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	
+	
+}
+.xinnian .box{
+	height: 2.1rem;
+	width: 10.8rem;
+	background: #f2f2f2;
+}
+.xinnian .box img{
+	height: 2rem;
+	width: 10.8rem;
+}
+.photo{
+	width: 10.8rem;
+	height: 7.1rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	/* margin-bottom: 20rem; */
+}
+.photo .tupianhe{
+	width: 5.34rem;
+	height: 7.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+}
+.photo .tupianhe img{
+	width: 5.34rem;
+	height: 5.34rem;
+}
+.photo .tupianhe .wenzi{
+	font-size: 0.44rem;
+	color: #000;
+	margin-left: 0.5rem;
+	margin-top: 0.2rem;
+}
+
+.photo .tupianhe .price{
+	font-size: 0.44rem;
+	color: #ff6801;
+	margin-left: 0.5rem;
+	margin-top: 0.2rem;
+}
+/* 内容结束 */
+/* 底部开始 */
+.footer{
+	height: 1.5rem;
+	width: 10.8rem;
+	background: red;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	
+}
+.footer .box1{
+	height: 1.5rem;
+	width: 3.6rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.footer .box1 .hezi1{
+	width: 2.1rem;
+	height: 1.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.footer .box1 .hezi1 .hezi2{
+	height: 0.42rem;
+	/* width: 2.1rem; */
+	font-size: 0.3rem;
+	line-height: 0.42rem;
+	/* text-align: center; */
+	color: #989898;
+}
+.footer .box1 .hezi1 .hezi3{
+	height: 0.6rem;
+	width: 2.1rem;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.footer .box1 .hezi1 .hezi3 .hezi4{
+	height: 0.6rem;
+	width: 1.9rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer .box1 .hezi1 .hezi3 .hezi4 .hezi5{
+	font-size: 0.5rem;
+	color: #f95d12;
+}
+.footer .box1 .hezi1 .hezi3 .hezi4 .hezi6{
+	font-size: 0.38rem;
+	color: #979797;
+}
+.footer .box2{
+	height: 1.5rem;
+	width: 3.6rem;
+	background: #f2f2f2;
+	font-size: 0.4rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #000;
+}
+.footer .box3{
+	height: 1.5rem;
+	width: 3.6rem;
+	background: #ff6801;
+	font-size: 0.4rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color:#fff;
+}
+
+/* 底部结束 */
